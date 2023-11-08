@@ -1,4 +1,4 @@
-package com.blog.maestlog.dto;
+package com.blog.maestlog.vo;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class UserDto {
+public class UserVo {
 	private String email;
 	private String nickname;
 	private String unique_nickname;
